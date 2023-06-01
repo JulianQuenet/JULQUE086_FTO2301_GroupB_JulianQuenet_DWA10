@@ -30,7 +30,7 @@ body{
     margin: 0;
     background: var(--color-medium-grey);
     color: var(--color-white);
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
