@@ -10,8 +10,7 @@ const overlay = document.querySelector('[data-overlay]')
 
 const subtractHandler = () => {
   dispatch(decrement())
-  const newValue = State.value
-  number.value = newValue
+  number.value = State.value
   if(add.disabled === true) {
   add.disabled = false
   }
@@ -21,7 +20,6 @@ const subtractHandler = () => {
 const addHandler = () => {
   dispatch(increment())
   number.value = State.value
- 
   if(subtract.disabled === true) {
   subtract.disabled = false
   }
